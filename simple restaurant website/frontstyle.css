@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Sans MS";
+}
+
+.back{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(background.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 25px;
+    color: yellow;
+    font-size: large;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: yellow;
+}
+
+.navbar{
+    display: flex;
+    padding: 40px 120px;
+    background-color:rgb(0, 0, 0);
+    height: 10px;
+}
+
+.link ul{
+    margin-left: -106px;
+    display: inline;
+}
+
+.logo img{
+    position: relative;
+    right: 114%;
+    bottom:304%;
+}
+
+ul li:hover{
+    background: aqua;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+.heading{
+    margin: 80px 130px;
+    color: #fff;
+}
+.heading h1{
+    font-size: 62px;
+    margin-bottom: 30px;
+}
+.heading h1 span{
+    color: yellow;
+}
+
+.social{
+    background-color: black;
+    position: relative;
+    top: 300px;
+}
+
+.social img{
+    margin-left: 43%;
+}

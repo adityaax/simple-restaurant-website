@@ -1,0 +1,47 @@
+body{
+    font-family: "Comic Sans MS";
+}
+
+.back{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(signupbackground.png);
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.forum{
+    width: 380px;
+    height: 250px;
+    background-color:rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+    position: relative;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.forum input{
+    float: right;
+    font-size: auto;
+}
+
+.forum label{
+    float: left;
+    color: aliceblue;
+}
+
+#button{
+    float: left;
+    border-radius: 2px;
+    font-family: "Comic Sans MS";
+    margin-top: 4px;
+}
+
+.foot{
+    position: relative;
+    top: 158px;
+    background-color: whitesmoke;
+}
